@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: #a7cd71;;
+}
+
+.container {
+    width:450px;
+    height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.body {
+    width:100%;
+
+}
+
+.header {
+    margin-top:-100px;
+    text-align:center;
+    text-color:#ffff;
+    padding-bottom:20px;
+}
+
+.header img {
+    width:300px;
+    height:300px;
+}
+
+.header h1 {
+    font-size:40px;
+    font-weight:700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header p {
+    font-size:25px;
+    font-weight:bold;
+    text-shadow:inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cards ul {
+    list-style:none;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+}
+
+.cards li {
+       width:70%;
+       background:#fff;
+       display:flex;
+       border-radius:20px;
+       overflow:hidden;
+       border: 1px solid #FFFFFF;
+       box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+       border-radius: 20px;
+}
+
+.cards span {
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.cards img{
+    width:20px;
+}
+
+.insta{
+    background:#ff8811;
+}
+.github{
+    background:#ff8811;
+}
+.linkdin{
+    background:#ff8811;
+}
+.portfolio{
+    background:#ff8811;
+}
+
+.cards a {
+    text-decoration:none;
+    color:black;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:20px;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+    height:100%;
+    weight:100vw;
+    font-weight:600px;
+    display:flex;
+    justify-content:space-between;
+    padding:30px 40px;
+}
+
+.footer a {
+    display:flex;
+    gap:10px;
+    items-align:center;
+    text-decoration:none;
+    color:white;
+}
