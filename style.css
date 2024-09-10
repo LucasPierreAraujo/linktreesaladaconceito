@@ -11,7 +11,7 @@ body {
     display:flex;
     justify-content: center;
     align-items:center;
-    background: #a7cd71;;
+    background: white;
 }
 
 .container {
@@ -34,7 +34,7 @@ body {
 }
 
 .header img {
-    width:300px;
+    width:600px;
     height:300px;
 }
 
@@ -83,16 +83,7 @@ body {
 }
 
 .insta{
-    background:#ff8811;
-}
-.github{
-    background:#ff8811;
-}
-.linkdin{
-    background:#ff8811;
-}
-.portfolio{
-    background:#ff8811;
+    background:#196db3;
 }
 
 .cards a {
